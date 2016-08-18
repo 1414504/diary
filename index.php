@@ -31,12 +31,12 @@
                     <p>entryTitle: Today at work
                         entrySummary: Today I went to work and did lots of very complicated coding things. I was very pleased that I managed to finish them all
                         category: Work
-                        submitter: Adam
+                        submitter: Adam<br><br>
 
                         entryTitle: University Lecturer
                         entrySummary: This week in university I had an amazing lecture. I can’t remember the name of the lecturer but he was really really good.
                         category: University
-                        submitter: Brian
+                        submitter: Brian<br><br>
 
                         entryTitle: Dads new television
                         entrySummary: Today dad bought a new television. He likes to watch the F1 on it a lot.
