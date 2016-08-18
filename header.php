@@ -6,8 +6,7 @@
 
  </div>
 
- <div class="col-md-10" style="background-image: url('image/banner.jpg'); color: white;">
-   <img src="image/banner.jpg" style="width:100%;">      -->
+ <div class="col-md-10">
  <h2>BugTracker</h2>
  <h3>Keeping Track all of the Peski little bugs</h3>
 
