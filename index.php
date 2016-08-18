@@ -28,7 +28,22 @@
                     
                 
                 <div class="col-md-10 border min-height">
-                    <p>jdk djsij odjoj sokdpop sdoksok osdksk sdjds sjdsjc osjdoj sjdsj psokdpo osdjpj psokdop dkscos podkp jdk djsij odjoj sokdpop sdoksok osdksk sdjds sjdsjc osjdoj sjdsj psokdpo osdjpj psokdop dkscos podkpjdk djsij odjoj sokdpop sdoksok osdksk sdjds sjdsjc osjdoj sjdsj psokdpo osdjpj psokdop dkscos podkpjdk djsij odjoj sokdpop sdoksok osdksk sdjds sjdsjc osjdoj sjdsj psokdpo osdjpj psokdop dkscos podkpjdk djsij odjoj sokdpop sdoksok osdksk sdjds sjdsjc osjdoj sjdsj psokdpo osdjpj psokdop dkscos podkp</p>
+                    <p>entryTitle: Today at work
+                        entrySummary: Today I went to work and did lots of very complicated coding things. I was very pleased that I managed to finish them all
+                        category: Work
+                        submitter: Adam
+
+                        entryTitle: University Lecturer
+                        entrySummary: This week in university I had an amazing lecture. I can’t remember the name of the lecturer but he was really really good.
+                        category: University
+                        submitter: Brian
+
+                        entryTitle: Dads new television
+                        entrySummary: Today dad bought a new television. He likes to watch the F1 on it a lot.
+                        category: Family
+                        submitter: Charlie
+
+                    </p>
                 </div>
             </div>
             
