@@ -47,11 +47,11 @@ $sql = "select * from diary where lower(diary_category)=lower('$category')";
 $result = $con->query($sql);
 $con->close();
 if (mysqli_num_rows($result)>0) {
-    while ($diary = mysqli_fetch_array($result)) {
+    while ($row = mysqli_fetch_array($result)) {
         ?>
                             <div class = "row margin-top">
                                 <div class="col-md-6">
-                                    <label>Entry Title:</label> <?php echo $diary['diary_name']; ?>
+                                    <label>Entry Title:</label> <?php echo $row['diary_name']; ?>
                                 </div>
 
                             </div>
@@ -59,12 +59,12 @@ if (mysqli_num_rows($result)>0) {
         <div class = "row margin-top">
             <div class="col-md-12">
                 <label>Entry Summary</label><br>
-                <?php echo $diary['diary_summary']; ?>
+                <?php echo $row['diary_summary']; ?>
             </div>
 
                             <div class = "row margin-top">
                                 <div class="col-md-6">
-                                    <label>Category</label> <?php echo $diary['diary_category']; ?>
+                                    <label>Category</label> <?php echo $row['diary_category']; ?>
                                 </div>
 
                             </div>
