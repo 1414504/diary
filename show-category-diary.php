@@ -51,7 +51,7 @@ if (mysqli_num_rows($result) > 0) {
         ?>
                             <div class = "row margin-top">
                                 <div class="col-md-6">
-                                    <label>diary Name:</label> <?php echo $diary['diary_name']; ?>
+                                    <label>Entry Title:</label> <?php echo $diary['diary_name']; ?>
                                 </div>
 
                             </div>
@@ -65,7 +65,7 @@ if (mysqli_num_rows($result) > 0) {
 
                             <div class = "row margin-top">
                                 <div class="col-md-12">
-                                    <label>Summary</label><br>
+                                    <label>Entry Summary</label><br>
         <?php echo $diary['diary_summary']; ?>
                                 </div>
 
