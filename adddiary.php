@@ -85,7 +85,7 @@ if(isset($_POST['save_diary']))
             <div class="row">
             
                 <div class="col-md-12 border footer">
-                    Designed by Shahid Baig
+                    Designed by Shahid Baig, 2016
                     
                 </div>
                 
