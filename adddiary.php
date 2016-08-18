@@ -52,14 +52,14 @@ if(isset($_POST['save_diary']))
                 <div class="col-md-10 border min-height">
                     
                     <div class = "row" style="margin-top: 10px;">
-                        <div class="col-md-3">Title</div>
+                        <div class="col-md-3">Entry Title</div>
                         <div class="col-md-9"> <input name="diary_name" type="text" class="form-control" required=""> </div>
                     </div>
 
 
                     
                       <div class = "row" style="margin-top:10px;">
-                        <div class="col-md-3">Summary</div>
+                        <div class="col-md-3">Entry Summary</div>
                         <div class="col-md-9"> <textarea name="diary_summary" class="form-control" required=""></textarea> </div>
                     </div>
 

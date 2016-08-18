@@ -56,6 +56,12 @@ if (mysqli_num_rows($result) > 0) {
 
                             </div>
 
+        <div class = "row margin-top">
+            <div class="col-md-12">
+                <label>Entry Summary</label><br>
+                <?php echo $diary['diary_summary']; ?>
+            </div>
+
                             <div class = "row margin-top">
                                 <div class="col-md-6">
                                     <label>Category</label> <?php echo $diary['diary_category']; ?>
@@ -63,11 +69,7 @@ if (mysqli_num_rows($result) > 0) {
 
                             </div>
 
-                            <div class = "row margin-top">
-                                <div class="col-md-12">
-                                    <label>Entry Summary</label><br>
-        <?php echo $diary['diary_summary']; ?>
-                                </div>
+
 
                             </div>
 
