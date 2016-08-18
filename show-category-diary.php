@@ -46,7 +46,7 @@ if (mysqli_errno($con)) {
 $sql = "select * from diary where lower(diary_category)=lower('$category')";
 $result = $con->query($sql);
 $con->close();
-if (mysqli_num_rows($result) > 0) {
+if (mysqli_num_rows($result)>0) {
     while ($diary = mysqli_fetch_array($result)) {
         ?>
                             <div class = "row margin-top">
