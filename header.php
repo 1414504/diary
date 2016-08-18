@@ -7,8 +7,8 @@
  </div>
 
  <div class="col-md-10">
- <h2>BugTracker</h2>
- <h3>Keeping Track all of the Peski little bugs</h3>
+ <h2>myDiary</h2>
+ <h3>Keeping track of all my thoughts</h3>
 
 </div>
   </div>
