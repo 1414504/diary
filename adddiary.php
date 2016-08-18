@@ -3,8 +3,9 @@ $message = "";
 if(isset($_POST['save_diary']))
 {
     $name = $_POST['diary_name'];
-    $category = $_POST['diary_category'];
     $summary = $_POST['diary_summary'];
+    $category = $_POST['diary_category'];
+
     
     $con = new mysqli("ap-cdbr-azure-east-c.cloudapp.net", "b1236d751c9714", "41e55854", "acsm_dd5dc4ba52b59d7");
     
@@ -13,7 +14,7 @@ if(isset($_POST['save_diary']))
         die(mysqli_errno($con)." Failed to connect database.");
     }
     
-    $sql = "insert into diary (diary_name,diary_category,diary_summary)values('$name','$category','$summary')";
+    $sql = "insert into diary (diary_name, diary_summary, diary_category)values('$name','$summary','$category')";
     
     $con->query($sql);
     $con->close();
@@ -54,16 +55,23 @@ if(isset($_POST['save_diary']))
                         <div class="col-md-3"> Entry Title</div>
                         <div class="col-md-9"> <input name="diary_name" type="text" class="form-control" required=""> </div>
                     </div>
+
+
                     
                       <div class = "row" style="margin-top:10px;">
                         <div class="col-md-3"> Entry Summary</div>
                         <div class="col-md-9"> <textarea name="diary_summary" class="form-control" required=""></textarea> </div>
                     </div>
+
+
                     
                       <div class = "row" style="margin-top: 10px;">
                         <div class="col-md-3"> Catagory </div>
                         <div class="col-md-9"> <input name="diary_category" type="text" class="form-control" required=""></div>
                     </div>
+
+
+
                     <div class="row" style="margin-top: 10px">
                         <div class="col-md-2" style="float:right;">
                             <input type="submit" name="save_diary" value="Submit" class="form-control">
