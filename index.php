@@ -8,7 +8,7 @@
             <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
             <link href="style.css" rel="stylesheet" type="text/css"/>
         
-            <title>BugTracker</title>
+            <title>My Diary</title>
     
     </head>
     
@@ -37,7 +37,7 @@
             <div class="row">
             
                 <div class="col-md-12 border footer">
-                    Designed by Shahid Baig 2016
+                    Designed by Shahid Baig, 2016
                     
                 </div>
                 
